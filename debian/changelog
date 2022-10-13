@@ -1,0 +1,60 @@
+node-cookie-signature (1.1.0-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 16:58:09 +0100
+
+node-cookie-signature (1.1.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set field Upstream-Contact in debian/copyright.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 22:55:59 +0100
+
+node-cookie-signature (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:39 +0200
+
+node-cookie-signature (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Change priority to optional
+  * Fix VCS fields
+  * Fix d/copyright format
+  * Switch test to pkg-js-tools (Closes: #894935)
+  * New upstream version 1.1.0 (Closes: #838618)
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 20 Feb 2019 06:49:14 +0100
+
+node-cookie-signature (1.0.3-1) unstable; urgency=medium
+
+  * Move to pkg-javascript
+  * Add autopkgtest
+  * Standards-Version 3.9.6
+  * Imported Upstream version 1.0.3
+  * Enable package tests, depends mocha, node-should
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 12 Oct 2014 09:57:52 +0200
+
+node-cookie-signature (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #727158)
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 22 Oct 2013 22:32:56 +0200

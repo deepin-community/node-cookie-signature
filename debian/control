@@ -1,0 +1,29 @@
+Source: node-cookie-signature
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , nodejs
+ , mocha
+ , node-should
+ , pkg-js-tools (>= 0.8.6)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-cookie-signature
+Vcs-Git: https://salsa.debian.org/js-team/node-cookie-signature.git
+Homepage: https://github.com/visionmedia/node-cookie-signature
+
+Package: node-cookie-signature
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Sign and unsign cookies using hmac - module for Node.js
+ Small module to help signing and unsigning strings using hmac
+ signature with a secret.
+ .
+ It is used by connect middleware to secure session cookies.
+ .
+ Node.js is an event-based server-side javascript engine.
